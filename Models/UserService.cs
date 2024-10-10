@@ -46,3 +46,5 @@
 // Great, we have gone through all five SOLID principles successfully. And we can conclude that using these principles, we can build an application with tidy, readable, and easily maintainable code.
 
 // Here you may have some doubts. Yes, about the quantity of code. Because of these principles, the code might become larger in our applications. But my dear friends, you need to compare it with the quality we get by following these principles. Hmm, but anyway, 27 lines are much fewer than 200 lines. 
+
+// Orale
