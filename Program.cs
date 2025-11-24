@@ -62,7 +62,7 @@ public class Manager: ILead
 // Since we have three roles, 
 // 1, managers can only divide and assign tasks, 
 // 2. TeamLead can divide and assign the jobs and work on them, 
-// 3. We need to divide the responsibilities by segregating the ILead interface for the programmer that can only work on tasks—an interface that provides a contract for WorkOnTask().
+// 3. We need to divide the responsibilities by segregating the ILead interface for the programmer that can only work on tasks, an interface that provides a contract for WorkOnTask().
 
 public interface IProgrammer
 {
@@ -75,7 +75,7 @@ public interface ILead
    void AssignTask();
    void CreateSubTask();
 }
-Then the implementation becomes.
+// Then the implementation becomes.
 
 public class Programmer: IProgrammer
 {
