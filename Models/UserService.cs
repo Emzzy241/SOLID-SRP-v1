@@ -2,7 +2,7 @@
 // S stands for SRP; Solid Responsibility Principle
 
 // The rule states that a class should only be changed for one reason
-// This means that every class or similar structure in your code should have only one job
+// This means that every class or similar structure in your code should  only have one job
 
 // Our class should not be like a Swiss knife wherein if one of them needs to be changed, the entire tool needs to be altered. It does not mean that your classes should only contain one method or property. There may be many members as long as they relate to a single responsibility.
 
