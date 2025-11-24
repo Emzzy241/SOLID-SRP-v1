@@ -47,7 +47,7 @@ public class AreaCalculator
          }
          else
          {
-            objCircle = (Circle)obj;
+            objCircle = (Circle)obj; // forcefully casting the object to a circle such that the only field it has is Radius.
             area += objCircle.Radius * objCircle.Radius * Math.PI;
          }
       }
@@ -81,11 +81,11 @@ public class Circle: Shape
    public double Radius {get;set;}
    public override double Area()
    {
-      return Radius * Radus * Math.PI;
+      return Radius * Radius * Math.PI;
    }
 }
-C#
-Every shape contains its area with its way of calculation functionality, and our AreaCalculator class will become simpler than before.
+// C#
+// Every shape contains its area with its way of calculation functionality, and our AreaCalculator class will become simpler than before.
 
 public class AreaCalculator
 {

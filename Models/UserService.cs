@@ -1,5 +1,5 @@
 // Implementing the O in SOLID
-// O stands for SRP; Open-closed Principle
+// O stands for OCP; Open-closed Principle
 // The Open/closed Principle says, "A software module/class is open for extension and closed for modification."
 
 // Open Closed Principle
