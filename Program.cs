@@ -48,7 +48,7 @@ public class ReadOnlySqlFile
 }
 public class SqlFileManager
 {
-   public List<SqlFile> lstSqlFiles {get;set}
+   public List<SqlFile> lstSqlFiles {get;set;}
    public string GetTextFromFiles()
    {
       StringBuilder objStrBuilder = new StringBuilder();
